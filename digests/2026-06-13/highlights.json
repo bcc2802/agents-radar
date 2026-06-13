@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Fable-5 模型大面积不可用引发大规模投诉",
+      "OpenAI Codex 四连发 alpha-14~17 版本修复 Windows 崩溃",
+      "Gemini CLI 代理状态报告不实，假成功问题成核心矛盾",
+      "GitHub Copilot CLI v1.0.62-1 新版本引入终端渲染 Bug",
+      "Qwen Code v0.18.0 发布，OAuth集成与高强度迭代",
+      "Pi v0.79.2 修复Codex连接卡死，扩展Vertex AI支持"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6 发布，核心主题为安全加固",
+      "修复并行生成子代理导致网关重启的严重稳定性问题",
+      "修复Kimi K2.6模型上下文压缩后的400错误",
+      "修复OpenAI Codex SSE流被本地中止显示为408超时",
+      "大量PR聚焦数据库迁移与权限系统健壮性修复",
+      "P1级安全漏洞和记忆系统等关键功能仍面临积压"
+    ],
+    "ai-trending": [
+      "agent-skills 项目登顶趋势榜，定义Agent技能编写标准",
+      "LMCache 项目突破性优化LLM推理缓存效率",
+      "ollama 持续霸榜，成为本地模型运行事实标准",
+      "Dify 智能体工作流平台社区热度不减",
+      "OpenHands 开源替代方案受开发者追捧",
+      "AutoGPT 回归趋势榜，多智能体协作成焦点"
+    ],
+    "ai-web": [
+      "美国政府下令Anthropic紧急暂停Fable 5和Mythos 5访问",
+      "Anthropic与TCS合作，5万名员工接受Claude培训",
+      "Anthropic发布公众AI调查报告：70%支持政府监管",
+      "Anthropic发布提升模型化学能力的科研成果",
+      "OpenAI今日无增量更新，信息受限",
+      "Anthropic推测政府发现Fable 5\"越狱\"漏洞但很微小"
+    ],
+    "ai-hn": [
+      "美国政府下令暂停Fable 5和Mythos 5引爆1226分讨论",
+      "展示脚本：批量删除Claude聊天记录获53分热评",
+      "BitBoard YC孵化项目为Agent提供分析工作空间",
+      "OpenAI考虑大幅降价打价格战抢占用户",
+      "开源社区呼吁AI模型透明度与安全性",
+      "Ghost authors论文揭示LLM内部存在重复人格模式"
+    ],
+    "ai-arxiv": [
+      "EvoArena提出通过记忆演化提升Agent环境适应性",
+      "HyperTool突破逐步调用实现Agent超复杂工具编排",
+      "学习类比推理：检索增强强化微调框架发布",
+      "Influcoder蒸馏梯度排名高效筛选训练数据",
+      "Majority-of-Three证明三分类器多数投票最优",
+      "DiffusionGemma实现每秒1000 tokens颠覆推理经济"
+    ],
+    "ai-community": [
+      "DiffusionGemma开源LLM每秒1000 tokens引热议",
+      "实战分享：5个关键转变管理AI Agent团队",
+      "Agent记忆存储设计指南：工作记忆与衰减规则",
+      "Agent沙箱逃逸检测器：黑盒安全扫描工具",
+      "AWS推出Agent Toolkit官方工具包获12赞",
+      "深入反思AI使用边界：能力与安全的平衡艺术"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hit v2.1.177 amid Fable-5 outage",
+      "OpenAI Codex released v0.140.0-alpha.x 4 times",
+      "Gemini CLI reached v0.48.0-nightly",
+      "Community demands multi-model orchestration",
+      "Persistent session hangs and billing gripes",
+      "Agent pipelines gaining traction over chat"
+    ],
+    "ai-agents": [
+      "OpenClaw released security hotfix v2026.6.6",
+      "500 issues and 500 PRs updated in 24 hours",
+      "High-severity regressions straining maintainers",
+      "Community engagement robust but backlog grows",
+      "Critical bugs in sandbox and MCP stdio",
+      "357 open PRs signal review bottleneck"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills gained +2,656 stars today",
+      "obra/superpowers added +1,275 stars",
+      "Apple's container for Mac Linux hits +3,504 stars",
+      "LangChain crossed 139,155 stars",
+      "Ollama reached 173,984 stars",
+      "Dify hit 145,008 stars for agent workflows"
+    ],
+    "ai-web": [
+      "Fable 5 and Mythos 5 suspended globally",
+      "US emergency export directive over jailbreak fear",
+      "Anthropic partners with TCS for 50,000 employees",
+      "First large-scale public AI survey published",
+      "Models disabled 3 days after Fable 5 launch",
+      "OpenAI had zero new content today"
+    ],
+    "ai-hn": [
+      "Fable 5/Mythos 5 suspension scored 1226 points",
+      "Community split on government overreach",
+      "Paper finds LLMs use ghost author personas",
+      "N-day exploit impact study from Anthropic",
+      "Open-source resilience debate heats up",
+      "Vibe coding discussed as tonal counterpoint"
+    ],
+    "ai-arxiv": [
+      "EvoArena tracks memory evolution in LLM agents",
+      "Operadic consistency catches reasoning failures",
+      "New framework AgentBeats for scalable evaluation",
+      "LabVLA bridges LLMs to dexterous manipulation",
+      "Influcoder tackles data attribution at scale",
+      "EpiBench brings LLMs to epigenomics domain"
+    ],
+    "ai-community": [
+      "DiffusionGemma hits 1,000+ tokens per second",
+      "79% on LongMemEval beats full-context GPT-4",
+      "Agent sandbox escape detector goes open source",
+      "Fable 5 framed as infrastructure, not software",
+      "Vibecoding fragility sparks big debate",
+      "Observability and cost control in focus"
+    ]
+  }
+}
