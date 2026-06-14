@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 连发两个 Alpha 版本，迭代密集。",
+      "Claude Code 社区聚焦 IDE 集成与数据安全。",
+      "Gemini CLI 工程化推进快，但 Agent 挂起问题待解。",
+      "Copilot CLI 发布正式版，支持 MCP 懒加载。",
+      "OpenCode 发布正式版，修复长会话 OOM 问题。",
+      "Pi 发布紧急修复，解决缓存与成本 Bug。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布两个 Beta 版，增强消息投递。",
+      "社区活跃度极高，但 Issue 关闭率仅 19%。",
+      "修复群聊会话静默丢弃消息的严重问题。",
+      "Telegram 渠道支持富文本与结构化内容。",
+      "Slack 渠道支持直接发送图片附件。",
+      "WhatsApp 消息投递更加健壮和丰富。"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills 单日增长 1514 星。",
+      "NVIDIA 推出 SkillSpector，专扫 Agent 漏洞。",
+      "LMCache 号称最快 KV Cache 层，提升推理速度。",
+      "kenn-io/agentsview 实现 Agent 可观测性。",
+      "ollama 以 174k 星稳居本地模型首选工具。",
+      "vllm 持续领跑高吞吐量 LLM 推理引擎。"
+    ],
+    "ai-hn": [
+      "Anthropic Fable 模型被美国政府紧急禁用。",
+      "亚马逊 CEO 被曝游说导致对 Anthropic 打压。",
+      "GLM 5.2 发布，引发地缘政治影响讨论。",
+      "Claude Fable 5 与 GPT-5.5 对比评测引热议。",
+      "Go 框架 Galdor 发布，内置 Agent 追踪与回放。",
+      "社区热议对单一模型生态的依赖风险。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 单周点赞近 5000，登顶周榜。",
+      "Google Gemma 4 系列模型占据榜单超 1/3。",
+      "Nex-N2 系列 MoE 轻量模型表现抢眼。",
+      "Ideogram 4 高质量图像生成模型受关注。",
+      "小米推出 MiMo-V2.5-Pro，主打 Agent 能力。",
+      "NVIDIA 发布 LocateAnything-3B 定位模型。"
+    ],
+    "ai-community": [
+      "Claude Fable 5 发布三天被美国政府紧急下架。",
+      "开源模型因不可撤销特性凸显韧性优势。",
+      "技能检查器给 52k 星项目打出 84/100 分。",
+      "AI 网关 106 倍成本问题成新痛点。",
+      "Spring Boot AI 对比提示泄漏与注入攻击。",
+      "社区强调通过测试不等于能上线生产环境。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "MCP convergence accelerating across ecosystems",
+      "Session corruption plagues Claude Code",
+      "Claude Code, Kimi Code suffer hallucinations",
+      "Pi, DeepSeek TUI have cost tracking bugs",
+      "BYOM extensibility gains momentum",
+      "Agent orchestration focus on parallelism"
+    ],
+    "ai-agents": [
+      "OpenClaw at 500 issues, 500 PRs",
+      "Two new beta releases for Telegram, WhatsApp",
+      "95 issues resolved, 201 PRs merged",
+      "Memory leaks under community debate",
+      "Channel delivery stability improved",
+      "Rapid but turbulent development phase"
+    ],
+    "ai-trending": [
+      "agent-skills surges +1,514 stars today",
+      "NVIDIA SkillSpector debuts security scanning",
+      "Apple Silicon optimized AI container runtime",
+      "LMCache cuts inference latency drastically",
+      "andyosmani/agent-skills curates agent skills",
+      "obra/superpowers gains +924 stars"
+    ],
+    "ai-hn": [
+      "US bans Anthropic's Claude Fable 5 export",
+      "GLM 5.2 open model launched from China",
+      "Claude Fable 5 vs GPT-5.5 comparison",
+      "Amazon CEO sparked export control talks",
+      "Galdor Go agent framework with tracing",
+      "Global AI development debate intensifies"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops 4.8K weekly likes",
+      "Gemma 4 12B and 26B drive quantizations",
+      "Cohere North-Mini-Code for efficient coding",
+      "Nex-N2-Pro 9B MoE for text and image",
+      "DeepSeek-V4-Pro hits 3.2M downloads",
+      "Streaming ASR, creative audio models rise"
+    ],
+    "ai-community": [
+      "Claude Fable 5 pulled by US government",
+      "Cheaper model cost 8.6x more in practice",
+      "MCP server testing must use real models",
+      "Vibe coding vs intentional AI debate",
+      "Agent observability content surges",
+      "AI Economics satire draws attention"
+    ]
+  }
+}
