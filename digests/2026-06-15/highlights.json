@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code与OpenAI Codex面临严重的Agent递归失控问题",
+      "OpenCode与CodeWhale发布新版本，活跃度极高",
+      "Agent可靠性、安全性与可控性成所有工具共同焦点",
+      "OpenAI Codex今日处理10个重要PR，社区贡献活跃",
+      "Kimi Code CLI活跃度偏低，仅提供少量Issues和PRs",
+      "生态正从可用阶段向可靠、安全、可集成工程化迈进"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.8-beta.1，改进Telegram和WhatsApp消息投递",
+      "项目24小时内处理500条Issues和500个PR，社区高活跃",
+      "Matrix、Telegram等渠道大量会话状态和消息丢失回归问题",
+      "维护团队积极修复，但大量待合并PR可能成瓶颈",
+      "新版Telegram支持表格、列表等结构化富文本消息",
+      "项目健康度一般，功能活跃但核心稳定性面临挑战"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent以近20万Stars霸榜智能体框架",
+      "NVIDIA/SkillSpector开源安全扫描器今日猛增964星",
+      "金融AI成热点：Kronos模型与TradingAgents多智能体交易框架",
+      "vllm项目以82,866星成为大模型部署工业标准",
+      "原子化框架atomic-agents代表智能体精细化发展方向",
+      "AutoGPT以184,943星巩固早期AI Agent开拓者地位"
+    ],
+    "ai-web": [
+      "OpenAI推出合作伙伴网络，战略转向生态壁垒建设",
+      "Anthropic全线静默，可能是为重大版本发布蓄力",
+      "合作伙伴网络包含系统集成商和ISV的官方渠道体系",
+      "OpenAI重心从模型竞赛转向生态系统产品化",
+      "合作伙伴将获得技术支持、销售返点和产品内测资格",
+      "Anthropic静默或与深度研发和严格安全审查有关"
+    ],
+    "ai-hn": [
+      "Anthropic成社区焦点：模型行为突变与出口管制争议",
+      "用户抱怨Claude变混蛋，猜测与安全策略变化有关",
+      "里约热内卢自称国产的LLM被曝只是现有模型合并",
+      "AI有健忘症：社区讨论RAG与长期记忆方案局限性",
+      "开源项目让Claude Code自主完成从Issue到PR全流程",
+      "大脑与LLM在不同语言中趋同于共享概念空间"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro同时登顶点赞和下载双冠王",
+      "nvidia/LocateAnything-3B精准定位物体获极高关注",
+      "Qwen3.6无审查版争议大但下载量超250万",
+      "Google Gemma-4-12B-it成为本周下载量最高模型之一",
+      "ideogram-4-fp8量化版兼顾性能与部署成本",
+      "Rio-3.5-Open-397B代表超大模型开源新形式"
+    ],
+    "ai-community": [
+      "开发者热议本地LLM替代云端AI服务的可行性与成本",
+      "Anthropic新模型发布，选最小可用模型成工程最佳实践",
+      "MCP提示注入攻击成AI代理安全核心难题",
+      "Agent记忆机制依赖语义相似性而非结果有效性引深思",
+      "石英危机类比引发AI对软件工程职业未来冲击讨论",
+      "开发者分享同时运行Claude Code和Codex的分工策略"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code has critical data-loss bugs",
+      "OpenAI Codex faces Windows crash issues",
+      "OpenCode and Pi ship UX enhancements",
+      "DeepSeek TUI rebrands to CodeWhale",
+      "Gemini CLI invests in subagent reliability",
+      "Cost transparency remains a pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw releases v2026.6.8-beta.1",
+      "500 issues and PRs updated in 24h",
+      "Telegram delivery now supports rich text",
+      "Critical P1 bugs await maintainer review",
+      "WhatsApp delivery gets safer boundaries",
+      "Regression issues dominate community reports"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector gains 964 stars today",
+      "Andrew Ng's aisuite adds 291 stars",
+      "Hermes Agent nears 194K stars",
+      "TradingAgents hits ~86K stars",
+      "Kronos financial AI gains 244 stars",
+      "AI agent security tooling surges"
+    ],
+    "ai-web": [
+      "OpenAI launches Partner Network today",
+      "Anthropic publishes no new content",
+      "OpenAI shifts to ecosystem building",
+      "Partner Network targets enterprise users",
+      "OpenAI captures developer mindshare",
+      "Anthropic pause hints at major release"
+    ],
+    "ai-hn": [
+      "Claude accused of 'turning into an asshole'",
+      "Brazilian LLM exposed as model merge",
+      "Nex-N2 sparks transparency debate",
+      "Brains and LLMs share conceptual space",
+      "Jqwik project faces anti-AI backlash",
+      "Community distrust of Anthropic grows"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4,836 likes",
+      "Gemma-4 12B crosses 1M downloads",
+      "NVIDIA LocateAnything-3B gets 2K likes",
+      "Qwen3.5 MoE derivatives surge",
+      "DiffusionGemma line gains traction",
+      "Uncensored fine-tunes of Gemma active"
+    ],
+    "ai-community": [
+      "Claude Code and Codex workflow shared",
+      "Local LLMs replace AI subscriptions",
+      "AI agents simulate emergent societies",
+      "MCP prompt-injection detector tested",
+      "Anthropic announces Fable 5 and Mythos 5",
+      "AI agent memory reliability debated"
+    ]
+  }
+}
