@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.178 发布，社区围绕稳定性激烈讨论",
+      "OpenAI Codex v0.140.0 聚焦跨平台兼容问题",
+      "OpenCode 遭遇付费信任危机，社区反响强烈",
+      "Qwen Code v0.18.1 重构核心命令 /loop",
+      "Pi v0.79.4 发布，模型连接可靠性成痛点",
+      "所有工具聚焦 Agent 稳定性与可靠性修复"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.8-beta.2，增强 Telegram 和 WhatsApp 支持",
+      "大型 PR 引入自动化审查流水线和 Windows 守护进程",
+      "项目议题积压严重：500条待办，P1/P2 长期未解",
+      "新增会话状态修复和插件加载优化 PR",
+      "CLI 后端交付获提示保留优化",
+      "富媒体内容处理安全性获改进"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector 登顶，Agent 安全性受关注",
+      "Kronos 金融模型和 TradingAgents 多智能体框架爆火",
+      "Agent-Reach 日增 1100+ star，让Agent 全网搜索",
+      "ollama 174k star：本地运行最新开源大模型的首选",
+      "claude-mem 项目爆火：实现跨会话记忆能力",
+      "browser-use 99k star：让Agent像人一样操作浏览器"
+    ],
+    "ai-web": [
+      "Anthropic 发布情感概念研究：揭示LLM内部运作机制",
+      "Claude 学会当化学家：可解读核磁共振谱图",
+      "首次系统性发现与情感相关的神经元激活模式",
+      "AI 情感是模型为达成目标演化的结构化表征",
+      "可解释性突破为安全控制提供新微观手段",
+      "Anthropic 战略转向深度安全与专业化能力"
+    ],
+    "ai-hn": [
+      "Anthropic 被特朗普政府封禁引发轩然大波",
+      "微软因 Azure 算力不足将 GitHub AI 负载迁移至 AWS",
+      "深度分析：Anthropic 如何将安全建造成核心护城河",
+      "Claude Code 集成 Visual Studio 原生 diff 功能",
+      "Spotlight 工具让 Claude Code/Codex 操作透明化",
+      "社区热议 AI 定价战与地缘政治风险"
+    ],
+    "ai-arxiv": [
+      "ExpRL：用探索性强化学习改进LLM中间训练",
+      "ContextRL 增强模型在长上下文中定位关键证据的能力",
+      "DEEPRUBRIC 用证据树监督深度研究Agent的强化学习",
+      "研究揭示模型可内部编码推理轨迹的'价值'",
+      "新研究挑战差分隐私对后门攻击的天然防御",
+      "HAW方法从稀疏回报中高效微调机器人VLA模型"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以4868点赞断层登顶本周热门",
+      "nvidia/LocateAnything-3B 成黑马，精准定位图像任意物体",
+      "Gemma 4 系列生态爆发：从基础版到量化版全面开花",
+      "Google diffusiongemma 融合 Diffusion 与 Gemma 架构",
+      "微软 FastContext-1.0-4B 专注长上下文处理",
+      "Unsloth 团队贡献多个高下载 GGUF 量化版本"
+    ],
+    "ai-community": [
+      "Fable 5 中断事故：依赖单一AI API的风险警示",
+      "Gemini 账单猫腻：3300次调用揭定价不透明",
+      "AI 不'幻觉'，是你的架构设计有问题",
+      "GraphRAG + MCP 协议成驯服 LLM 幻觉热门方案",
+      "AI 聊天机器人安全审计：35个漏洞中的输出端风险",
+      "Claude 服务中断引发对 AI 服务韧性的现实思考"
+    ]
+  },
+  "en": {}
+}
