@@ -318,75 +318,62 @@ async function main(): Promise<void> {
   const fetchedOpenclaw = fetched.find((f) => f.cfg.id === OPENCLAW.id)!;
   const fetchedPeers = fetched.filter((f) => peerIds.has(f.cfg.id));
 
-  // 2. Generate per-repo LLM summaries in parallel (zh + en simultaneously)
-  console.log("  Generating summaries in ZH and EN in parallel...");
-  const [zhSummaries, enSummaries] = await Promise.all([
-    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, trendingData, dateStr, "zh"),
-    generateSummaries(fetchedCli, fetchedOpenclaw, skillsData, fetchedPeers, trendingData, dateStr, "en"),
-  ]);
+  // 2. Generate per-repo LLM summaries (Chinese only)
+  console.log("  Generating summaries in ZH...");
+  const zhSummaries = await generateSummaries(
+    fetchedCli,
+    fetchedOpenclaw,
+    skillsData,
+    fetchedPeers,
+    trendingData,
+    dateStr,
+    "zh",
+  );
 
-  // 3. Generate cross-repo comparisons in parallel (zh + en)
-  console.log("  Calling LLM for comparative analyses (ZH + EN)...");
-  const summariesByLang = { zh: zhSummaries, en: enSummaries };
-
-  const makeOpenclawDigest = (lang: Lang): RepoDigest => ({
+  // 3. Generate cross-repo comparisons
+  console.log("  Calling LLM for comparative analyses (ZH)...");
+  const makeOpenclawDigest = (): RepoDigest => ({
     config: OPENCLAW,
     issues: fetchedOpenclaw.issues,
     prs: fetchedOpenclaw.prs,
     releases: fetchedOpenclaw.releases,
-    summary: summariesByLang[lang].openclawSummary,
+    summary: zhSummaries.openclawSummary,
   });
 
-  const [zhComparison, zhPeersComparison, enComparison, enPeersComparison] = await Promise.all([
+  const [zhComparison, zhPeersComparison] = await Promise.all([
     callLlm(buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh")),
-    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("zh"), zhSummaries.peerDigests, dateStr, "zh")),
-    callLlm(buildComparisonPrompt(enSummaries.cliDigests, dateStr, "en")),
-    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en")),
+    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest(), zhSummaries.peerDigests, dateStr, "zh")),
   ]);
 
-  const comparisonByLang = { zh: zhComparison, en: enComparison };
-  const peersComparisonByLang = { zh: zhPeersComparison, en: enPeersComparison };
+  // 4. Build + save Chinese reports
+  const footer = autoGenFooter("zh");
+  const cliContent = buildCliReportContent(
+    zhSummaries.cliDigests,
+    zhSummaries.skillsSummary,
+    zhComparison,
+    utcStr,
+    dateStr,
+    footer,
+    CLAUDE_SKILLS_REPO,
+    "zh",
+  );
+  const openclawContent = buildOpenclawReportContent(
+    fetchedOpenclaw,
+    zhSummaries.peerDigests,
+    zhSummaries.openclawSummary,
+    zhPeersComparison,
+    utcStr,
+    dateStr,
+    footer,
+    OPENCLAW,
+    OPENCLAW_PEERS,
+    "zh",
+  );
 
-  // 4. Build + save all reports (zh + en)
-  const cliContent: Record<Lang, string> = {} as Record<Lang, string>;
-  const openclawContent: Record<Lang, string> = {} as Record<Lang, string>;
+  console.log(`  Saved ${saveFile(cliContent, dateStr, "ai-cli.md")}`);
+  console.log(`  Saved ${saveFile(openclawContent, dateStr, "ai-agents.md")}`);
 
-  for (const lang of ["zh", "en"] as const) {
-    const s = summariesByLang[lang];
-    const ft = autoGenFooter(lang);
-    const suffix = lang === "en" ? "-en" : "";
-
-    cliContent[lang] = buildCliReportContent(
-      s.cliDigests,
-      s.skillsSummary,
-      comparisonByLang[lang],
-      utcStr,
-      dateStr,
-      ft,
-      CLAUDE_SKILLS_REPO,
-      lang,
-    );
-    openclawContent[lang] = buildOpenclawReportContent(
-      fetchedOpenclaw,
-      s.peerDigests,
-      s.openclawSummary,
-      peersComparisonByLang[lang],
-      utcStr,
-      dateStr,
-      ft,
-      OPENCLAW,
-      OPENCLAW_PEERS,
-      lang,
-    );
-
-    console.log(`  Saved ${saveFile(cliContent[lang], dateStr, `ai-cli${suffix}.md`)}`);
-    console.log(`  Saved ${saveFile(openclawContent[lang], dateStr, `ai-agents${suffix}.md`)}`);
-  }
-
-  // Web report: zh saves state, en skips state save
-  for (const lang of ["zh", "en"] as const) {
-    await saveWebReport(webResults, webState, utcStr, dateStr, digestRepo, autoGenFooter(lang), lang);
-  }
+  await saveWebReport(webResults, webState, utcStr, dateStr, digestRepo, footer, "zh");
 
   await Promise.all([
     saveTrendingReport(
@@ -398,25 +385,11 @@ async function main(): Promise<void> {
       autoGenFooter("zh"),
       "zh",
     ),
-    saveTrendingReport(
-      trendingData,
-      enSummaries.trendingSummary,
-      utcStr,
-      dateStr,
-      digestRepo,
-      autoGenFooter("en"),
-      "en",
-    ),
     saveHnReport(hnData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveHnReport(hnData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     savePhReport(phData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    savePhReport(phData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     saveArxivReport(arxivData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveArxivReport(arxivData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     saveHfReport(hfData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveHfReport(hfData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
   ]);
 
   // 5. Generate highlights for Telegram notification
@@ -425,38 +398,26 @@ async function main(): Promise<void> {
     return fs.existsSync(p) ? fs.readFileSync(p, "utf-8") : undefined;
   };
 
-  const zhReports: Record<string, string> = { "ai-cli": cliContent.zh, "ai-agents": openclawContent.zh };
-  const enReports: Record<string, string> = { "ai-cli": cliContent.en, "ai-agents": openclawContent.en };
-  for (const [id, zhFile, enFile] of [
-    ["ai-trending", "ai-trending.md", "ai-trending-en.md"],
-    ["ai-web", "ai-web.md", "ai-web-en.md"],
-    ["ai-hn", "ai-hn.md", "ai-hn-en.md"],
-    ["ai-ph", "ai-ph.md", "ai-ph-en.md"],
-    ["ai-arxiv", "ai-arxiv.md", "ai-arxiv-en.md"],
-    ["ai-hf", "ai-hf.md", "ai-hf-en.md"],
-    ["ai-community", "ai-community.md", "ai-community-en.md"],
+  const zhReports: Record<string, string> = { "ai-cli": cliContent, "ai-agents": openclawContent };
+  for (const [id, zhFile] of [
+    ["ai-trending", "ai-trending.md"],
+    ["ai-web", "ai-web.md"],
+    ["ai-hn", "ai-hn.md"],
+    ["ai-ph", "ai-ph.md"],
+    ["ai-arxiv", "ai-arxiv.md"],
+    ["ai-hf", "ai-hf.md"],
+    ["ai-community", "ai-community.md"],
   ] as const) {
     const zh = readReport(zhFile);
-    const en = readReport(enFile);
     if (zh) zhReports[id] = zh;
-    if (en) enReports[id] = en;
   }
 
-  console.log("  Generating highlights for Telegram...");
+  console.log("  Generating highlights for notifications...");
   const highlights: Record<Lang, ReportHighlights> = { zh: {}, en: {} };
   try {
-    const [zhRaw, enRaw] = await Promise.all([
-      callLlm(buildHighlightsPrompt(zhReports, "zh"), 2048),
-      callLlm(buildHighlightsPrompt(enReports, "en"), 2048),
-    ]);
+    const zhRaw = await callLlm(buildHighlightsPrompt(zhReports, "zh"), 2048);
     highlights.zh = JSON.parse(
       zhRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    );
-    highlights.en = JSON.parse(
-      enRaw
         .replace(/```json?\n?/g, "")
         .replace(/```/g, "")
         .trim(),
@@ -468,23 +429,17 @@ async function main(): Promise<void> {
   const highlightsPath = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
   console.log(`  Saved ${highlightsPath}`);
 
-  // 6. Create GitHub issues for CLI + OpenClaw (zh + en)
+  // 6. Create GitHub issues for CLI + OpenClaw
   if (digestRepo) {
-    for (const lang of ["zh", "en"] as const) {
-      const cliUrl = await createGitHubIssue(
-        CLI_ISSUE_TITLE(dateStr, lang),
-        cliContent[lang],
-        ISSUE_LABELS.cli[lang],
-      );
-      console.log(`  Created CLI issue (${lang}): ${cliUrl}`);
+    const cliUrl = await createGitHubIssue(CLI_ISSUE_TITLE(dateStr, "zh"), cliContent, ISSUE_LABELS.cli.zh);
+    console.log(`  Created CLI issue (zh): ${cliUrl}`);
 
-      const ocUrl = await createGitHubIssue(
-        OPENCLAW_ISSUE_TITLE(dateStr, lang),
-        openclawContent[lang],
-        ISSUE_LABELS.openclaw[lang],
-      );
-      console.log(`  Created OpenClaw issue (${lang}): ${ocUrl}`);
-    }
+    const ocUrl = await createGitHubIssue(
+      OPENCLAW_ISSUE_TITLE(dateStr, "zh"),
+      openclawContent,
+      ISSUE_LABELS.openclaw.zh,
+    );
+    console.log(`  Created OpenClaw issue (zh): ${ocUrl}`);
   }
 
   console.log("Done!");

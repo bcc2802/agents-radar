@@ -81,16 +81,9 @@ export function buildFeishuMessage(
   for (const r of ordered) {
     const zhLabel = NOTIFY_LABELS[r]?.zh ?? r;
     const zhUrl = `${PAGES_URL}/#${date}/${r}`;
-    const enKey = `${r}-en`;
 
     lines.push("");
-    if (reports.includes(enKey)) {
-      const enLabel = NOTIFY_LABELS[r]?.en ?? "EN";
-      const enUrl = `${PAGES_URL}/#${date}/${enKey}`;
-      lines.push(`• [${zhLabel}](${zhUrl})  ·  [${enLabel}](${enUrl})`);
-    } else {
-      lines.push(`• [${zhLabel}](${zhUrl})`);
-    }
+    lines.push(`• [${zhLabel}](${zhUrl})`);
 
     const items = zhHighlights[r];
     if (items?.length) {

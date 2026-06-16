@@ -71,16 +71,9 @@ export function buildMessage(
   for (const r of ordered) {
     const zhLabel = NOTIFY_LABELS[r]?.zh ?? r;
     const zhUrl = `${PAGES_URL}/#${date}/${r}`;
-    const enKey = `${r}-en`;
 
     lines.push(""); // blank line before each report section
-    if (reports.includes(enKey)) {
-      const enLabel = NOTIFY_LABELS[r]?.en ?? "EN";
-      const enUrl = `${PAGES_URL}/#${date}/${enKey}`;
-      lines.push(`• <a href="${zhUrl}">${zhLabel}</a>  ·  <a href="${enUrl}">${enLabel}</a>`);
-    } else {
-      lines.push(`• <a href="${zhUrl}">${zhLabel}</a>`);
-    }
+    lines.push(`• <a href="${zhUrl}">${zhLabel}</a>`);
 
     // Add highlights as indented sub-items
     const items = zhHighlights[r];

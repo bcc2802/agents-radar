@@ -73,12 +73,11 @@ export function toWeekStr(date: Date): string {
 
 async function generateRollupHighlights(
   zhContent: string,
-  enContent: string,
   reportId: string,
   dateStr: string,
   itemsPerReport: number,
 ): Promise<void> {
-  console.log(`  [${reportId}] Generating highlights for Telegram...`);
+  console.log(`  [${reportId}] Generating highlights for notifications...`);
 
   // Read existing highlights (e.g. from daily digest) so we merge instead of overwrite
   const existingPath = path.join(DIGESTS_DIR, dateStr, "highlights.json");
@@ -97,24 +96,14 @@ async function generateRollupHighlights(
   };
 
   try {
-    const [zhRaw, enRaw] = await Promise.all([
-      callLlm(buildHighlightsPrompt({ [reportId]: zhContent }, "zh", itemsPerReport), 1024),
-      callLlm(buildHighlightsPrompt({ [reportId]: enContent }, "en", itemsPerReport), 1024),
-    ]);
+    const zhRaw = await callLlm(buildHighlightsPrompt({ [reportId]: zhContent }, "zh", itemsPerReport), 1024);
     const zhNew = JSON.parse(
       zhRaw
         .replace(/```json?\n?/g, "")
         .replace(/```/g, "")
         .trim(),
     ) as ReportHighlights;
-    const enNew = JSON.parse(
-      enRaw
-        .replace(/```json?\n?/g, "")
-        .replace(/```/g, "")
-        .trim(),
-    ) as ReportHighlights;
     Object.assign(highlights.zh, zhNew);
-    Object.assign(highlights.en, enNew);
   } catch (err) {
     console.error(`  [${reportId}] Highlights generation failed: ${err}`);
   }
@@ -154,15 +143,10 @@ export async function runWeeklyRollup(): Promise<void> {
     `[weekly] Found ${Object.keys(dailyDigests).length} daily digests: ${Object.keys(dailyDigests).join(", ")}`,
   );
 
-  // Generate ZH and EN in parallel
-  console.log("[weekly] Calling LLM for ZH and EN weekly reports in parallel...");
-  const [zhSummary, enSummary] = await Promise.all([
-    callLlm(buildWeeklyPrompt(dailyDigests, weekStr, "zh"), LLM_TOKENS_ROLLUP),
-    callLlm(buildWeeklyPrompt(dailyDigests, weekStr, "en"), LLM_TOKENS_ROLLUP),
-  ]);
+  console.log("[weekly] Calling LLM for ZH weekly report...");
+  const zhSummary = await callLlm(buildWeeklyPrompt(dailyDigests, weekStr, "zh"), LLM_TOKENS_ROLLUP);
 
   const footer = autoGenFooter("zh");
-  const enFooter = autoGenFooter("en");
 
   const zhContent =
     `# ${WEEKLY_REPORT.title.zh} ${weekStr}\n\n` +
@@ -171,17 +155,9 @@ export async function runWeeklyRollup(): Promise<void> {
     zhSummary +
     footer;
 
-  const enContent =
-    `# ${WEEKLY_REPORT.title.en} ${weekStr}\n\n` +
-    `> ${WEEKLY_REPORT.coverage.en}: ${last7[last7.length - 1]} ~ ${last7[0]} | Generated: ${utcStr} UTC\n\n` +
-    `---\n\n` +
-    enSummary +
-    enFooter;
-
   console.log(`  Saved ${saveFile(zhContent, dateStr, "ai-weekly.md")}`);
-  console.log(`  Saved ${saveFile(enContent, dateStr, "ai-weekly-en.md")}`);
 
-  await generateRollupHighlights(zhContent, enContent, "ai-weekly", dateStr, 6);
+  await generateRollupHighlights(zhContent, "ai-weekly", dateStr, 6);
 
   if (digestRepo) {
     const url = await createGitHubIssue(WEEKLY_REPORT.issueTitle(weekStr), zhContent, "weekly");
@@ -248,15 +224,10 @@ export async function runMonthlyRollup(): Promise<void> {
 
   console.log(`[monthly] Source: ${sourceLabel.zh}`);
 
-  // Generate ZH and EN in parallel
-  console.log("[monthly] Calling LLM for ZH and EN monthly reports in parallel...");
-  const [zhSummary, enSummary] = await Promise.all([
-    callLlm(buildMonthlyPrompt(sourceDigests, monthStr, "zh"), LLM_TOKENS_ROLLUP),
-    callLlm(buildMonthlyPrompt(sourceDigests, monthStr, "en"), LLM_TOKENS_ROLLUP),
-  ]);
+  console.log("[monthly] Calling LLM for ZH monthly report...");
+  const zhSummary = await callLlm(buildMonthlyPrompt(sourceDigests, monthStr, "zh"), LLM_TOKENS_ROLLUP);
 
   const footer = autoGenFooter("zh");
-  const enFooter = autoGenFooter("en");
 
   const zhContent =
     `# ${MONTHLY_REPORT.title.zh} ${monthStr}\n\n` +
@@ -265,17 +236,9 @@ export async function runMonthlyRollup(): Promise<void> {
     zhSummary +
     footer;
 
-  const enContent =
-    `# ${MONTHLY_REPORT.title.en} ${monthStr}\n\n` +
-    `> Sources: ${sourceLabel.en} | Generated: ${utcStr} UTC\n\n` +
-    `---\n\n` +
-    enSummary +
-    enFooter;
-
   console.log(`  Saved ${saveFile(zhContent, dateStr, "ai-monthly.md")}`);
-  console.log(`  Saved ${saveFile(enContent, dateStr, "ai-monthly-en.md")}`);
 
-  await generateRollupHighlights(zhContent, enContent, "ai-monthly", dateStr, 6);
+  await generateRollupHighlights(zhContent, "ai-monthly", dateStr, 6);
 
   if (digestRepo) {
     const url = await createGitHubIssue(MONTHLY_REPORT.issueTitle(monthStr), zhContent, "monthly");
