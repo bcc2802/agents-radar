@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.179 紧急修复 Windows 锁死和 Opus 4.8 回归问题。",
+      "OpenAI Codex 发布 rust-v0.141.0-alpha.x，修复 macOS 崩溃和 Git 泄露。",
+      "Gemini CLI v0.48.0 构建失败，但合并多项安全修复和依赖锁定。",
+      "GitHub Copilot CLI v1.0.64 新增 /diagnose 诊断功能和 MCP 注册表。",
+      "Kimi Code CLI 聚焦新手引导和 MCP 服务器稳定性问题修复。",
+      "OpenCode 以高活跃度追赶，Agent 调度智能化和模型兼容性成亮点。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.8，增强 Telegram 频道渲染和修复 WhatsApp。",
+      "子代理任务可靠性、消息丢失和会话状态一致性成今日核心痛点。",
+      "#93904 修复执行外部密钥解析器时环境变量继承问题。",
+      "#93855 修复 Bitwarden Secrets Manager 自托管服务器 URL 问题。",
+      "社区 500 条 Issue 和 500 条 PR 高度活跃，稳定性挑战最大。",
+      "#93542 拒绝阻塞 stdio 环境键以增强 MCP 安全性。"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent 星际暴增 195,502，自我进化 Agent 框架受追捧。",
+      "阿里巴巴开源 zvec，极速轻量级向量数据库今日同时登 Trending 和搜索榜。",
+      "Dify 145,533 Stars，从 RAG 工具演进为生产级 Agent 工作流平台。",
+      "AutoGPT 184,987 Stars 持续更新，仍是自主任务执行最佳起点之一。",
+      "RAGflow 82,970 Stars，深度融合 RAG 与 Agent 成企业级首选。",
+      "mem0ai 58,743 Stars，为 AI Agent 提供通用记忆层解决记不住痛点。"
+    ],
+    "ai-web": [
+      "Anthropic 发布经济学研究，量化专家 + AI 编程带来 25% 价值提升。",
+      "TCS 与 Anthropic 合作，将 Claude 引入金融、医疗等受监管行业。",
+      "研究显示 Claude Code 调试会话占比 7 个月内下降近一半。",
+      "Anthropic 重申安全优先核心价值观，强化品牌基因。",
+      "OpenAI 仅 1 篇部署模拟内容，战略意图不明确。",
+      "Anthropic 三篇内容占绝对主导，双轨并进战略清晰。"
+    ],
+    "ai-hn": [
+      "OpenAI 巨额亏损财报引发社区对财务可持续性的强烈质疑。",
+      "Anthropic 与美国政府紧张关系主导今日 HN 讨论，情绪悲观。",
+      "DeepSeek V4 Pro 以 5% 成本接近 Claude 性能，引发溢价讨论。",
+      "Wolfram Language V15 发布，内建 AI 助手和符号音乐获积极反响。",
+      "Show HN: Memento 自托管智能搜索，体现 Agent 落地个人数据兴趣。",
+      "GLM-5.2 开放权重发布，社区关注能否成对抗闭源模型的选择。"
+    ],
+    "ai-arxiv": [
+      "Variable-Width Transformers 打破层宽惯例，动态分配参数提升效率。",
+      "ZOPP 以提示代替梯度传递教师知识，缓解小模型泛化差问题。",
+      "首次提出 LLM 认知萎缩，量化长期情感交互中的退化问题。",
+      "地理条件 LLM 导致位置泄露，带来区域偏见风险。",
+      "OPSD 技术应用于扩散语言模型，为后训练提供新思路。",
+      "视觉验证机制在机器人任务中提升生成-验证框架可靠性。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4,899 点赞和 282 万下载霸榜本周顶流。",
+      "NVIDIA LocateAnything-3B 根据文本精准定位图像物体。",
+      "Google DiffusionGemma 实现任意到任意多模态融合。",
+      "智谱 GLM-5.2 新 MoE 模型发布，544 点赞预示极高关注度。",
+      "unsloth 量化生态活跃，围绕 Gemma-4 等提供大量 GGUF 版本。",
+      "Qwen3.6 家族形成集群效应，成本周最受关注开源模型家族。"
+    ],
+    "ai-community": [
+      "AI 内容审核误判文章爆火，开发者揭露算法主观性缺陷。",
+      "Fable 5 危机警示：应用上下文不能绑死在模型内。",
+      "无 AI 编程 30 天实验揭示过度依赖导致技能退化。",
+      "Token 消耗量成新行数？社区热议 AI 时代生产力衡量。",
+      "AI 供应商是单点故障，需设计降级和多供应商容错。",
+      "现有 RAG 栈过时，真正生产系统需要路由和记忆编排。"
+    ]
+  },
+  "en": {}
+}
