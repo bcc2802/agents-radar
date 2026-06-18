@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.181，成本消耗与远程控制可靠性成焦点",
+      "OpenAI Codex 发布 3 个 Alpha 版本，磁盘I/O问题引热议",
+      "OpenCode 发布 v1.17.8，专注模型响应速度与多Agent协作",
+      "Pi 社区活跃，流式体验与Bug修复成讨论核心",
+      "Qwen Code 发布 v0.18.3，OAuth免费政策与Token用量引关注",
+      "DeepSeek TUI 社区火爆，Agent行为失控与配置持久化成痛点"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目24小时涌入500条Issues与500条PR",
+      "Windows 守护进程与PR审查自动化PR已合并",
+      "多个修复聚焦cron任务与流式传输稳定性",
+      "密钥迁移安全Bug已被修复，凭据误删问题解决",
+      "社区热议文本泄漏至消息通道的铂金级问题",
+      "会话状态持久化与多代理协作成讨论焦点"
+    ],
+    "ai-trending": [
+      "Agent-Reach 今日新增1161星，让AI代理浏览整个互联网",
+      "skills 今日新增1523星，社区呼唤Agent技能市场",
+      "OpenMontage 开源智能体视频生产系统，集成500+技能",
+      "codebase-memory-mcp 支持158种语言亚毫秒级查询",
+      "google-research/timesfm 时间序列基础模型今日增长强劲",
+      "rlm 递归语言模型推理库探索新范式"
+    ],
+    "ai-web": [
+      "Anthropic 全面吹响AI+网络安全进攻号角",
+      "Anthropic 正式成立专职前沿红队进行极限压力测试",
+      "Claude Mythos Preview 网络安全能力评估发布",
+      "Anthropic 开设首尔办公室并与韩国政府签署MOU",
+      "多篇研究覆盖零日漏洞与智能合约安全",
+      "Anthropic 正主导AI时代攻防平衡叙事"
+    ],
+    "ai-hn": [
+      "OpenAI 财务文件泄露揭示惊人亏损规模引热议",
+      "Anthropic 与特朗普政府冲突成社区焦点",
+      "开源AI CAD工具Adam (YC W25)发布引关注",
+      "AI智能体安全性与响应速度辩论激烈",
+      "OpenAI AI化学家优化药物反应获积极评价",
+      "自托管开源AI代码审查工具Mira发布"
+    ],
+    "ai-arxiv": [
+      "DreamReasoner-8B 首个开源块状扩散推理模型发布",
+      "STARE 提出惊异度引导的强化学习稳定方法",
+      "MAST 实现模型特定推理能力的精准遗忘",
+      "多智能体虚构博弈增强LLM决策能力",
+      "图灵奖励机制用于学习用户模拟器",
+      "注意力机制的程序合成解释方法提出"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 稳居榜首，下载量超280万",
+      "Google DiffusionGemma 多模态模型下载量飙升",
+      "Gemma-4-12B-it 成社区微调基石模型",
+      "MiniMax-M3 旗舰多模态MoE模型登场",
+      "Qwen3.6-35B-A3B 高效MoE模型受追捧",
+      "大量无审查版与量化模型占据榜单半壁江山"
+    ],
+    "ai-community": [
+      "MCP从概念走向实践，社区分享设计原则与部署经验",
+      "AI Agent生产环境降智问题诊断方法论受追捧",
+      "模块化指令架构提出以优化Token使用",
+      "有限状态机模式用于LLM Provider故障切换",
+      "CI/CD集成评估流水线方案解决监督难题",
+      "确定性计算优于推理的混合系统设计原则"
+    ]
+  },
+  "en": {}
+}
