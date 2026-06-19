@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.183 发布，修复多项核心问题",
+      "OpenAI Codex 连发3个Alpha版本，开发节奏最快",
+      "Gemini CLI 夜间构建失败，稳定性问题受关注",
+      "MCP协议安全与稳定性成 CLI 工具竞争焦点",
+      "Qwen Code、CodeWhale 陆续修复平台兼容性",
+      "Kimi Code CLI 仅3条Issue，社区较冷清"
+    ],
+    "ai-agents": [
+      "OpenClaw网关内存飙至1073MB，静默死机引热议",
+      "'梦境系统'静默删除每日内存文件，P0级数据丢失",
+      "社区修复claude-cli流式事件缓冲与内存泄漏",
+      "AI Agent频发消息丢失，基础通信可靠性能待解",
+      "修复MiniMax API凌晨503错误，Cron任务恢复正常",
+      "TUI页脚上下文token显示'？/1.0m'问题已被关闭"
+    ],
+    "ai-trending": [
+      "Kilo-Org/kilocode单日涨1345星，平台化Agent工具",
+      "Obra/superpowers单日涨1429星，Agent技能框架新星",
+      "阿里开源zvec轻量级内存向量数据库，获259新星",
+      "DeepSeek-V4-Pro登陆HuggingFace，下载近300万",
+      "Nvidia LocateAnything-3B零样本定位模型获2166赞",
+      "AutoGPT持续霸榜，Agent框架生态一枝独秀"
+    ],
+    "ai-web": [
+      "Claude Opus 4.7机器人操控速度提升20倍，无需人类辅助",
+      "Anthropic发布BioMysteryBench评估AI生物信息学研究",
+      "Anthropic在韩国首尔开设办事处，全球化再加速",
+      "OpenAI推出ChatGPT Enterprise支出管控新功能",
+      "OpenAI发布健康智能改进，推进AI医疗应用",
+      "Claude Opus 4.7具身智能自主决策能力质变"
+    ],
+    "ai-hn": [
+      "'你在权重里吗？'趣味网站爆火，引243分138评论",
+      "GLM-5.2最强开源模型，部署门槛过高引叹息",
+      "Google顶尖AI人才纷纷跳槽OpenAI引热议",
+      "Datasette Apps新特性允许托管自定义HTML应用",
+      "Anthropic'Mythos'事件涉地缘政治与出口管制",
+      "Crawlie开源SEO审计工具专为AI Agent定制"
+    ],
+    "ai-arxiv": [
+      "论文揭示DiffusionGemma连续潜空间可解释性挑战",
+      "NRT-Bench多轮红队测试基准填补Agent安全空白",
+      "CWE-Trace框架证明LLM漏洞检测仅为模式匹配",
+      "LedgerAgent用结构化状态增强Agent策略遵守",
+      "混合顺从示范论文揭示上下文越狱新机制",
+      "4-bit KV缓存压缩提升LLM推理效率研究发布"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro屠榜：4957赞，294万次下载",
+      "Nvidia LocateAnything-3B零样本定位获2166赞",
+      "Google diffusiongemma-26B-A4B-it下载超52万",
+      "zai-org GLM-5.2获1362赞，国产模型受追捧",
+      "微软FastContext-1.0-4B-SFT专注长上下文处理",
+      "WeiboAI VibeThinker-3B小模型数学推理惊艳"
+    ],
+    "ai-community": [
+      "用电子表格vs 97.2% AI覆盖：谁赢了？",
+      "MCP Proxy桥接IFTTT与本地AI助手方案",
+      "AI Agent可靠性问题迫使团队重新设计",
+      "8周严格来源RAG系统生产实战全栈分享",
+      "检测Agent输出幻觉：不再只是概念讨论",
+      "AWS与Lobste.rs热议AI隐私、成本与本质"
+    ]
+  },
+  "en": {}
+}
