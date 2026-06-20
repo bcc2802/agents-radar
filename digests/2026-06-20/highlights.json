@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 子代理递归引发计费争议",
+      "OpenAI Codex 发布4个Alpha版本修复桌面应用崩溃",
+      "Gemini CLI 存在Agent挂起与安全CVE修复",
+      "GitHub Copilot CLI 发布Patch解决Zsh兼容性",
+      "Pi 发布v0.79.8改进流式渲染与WSL兼容",
+      "Qwen Code 多智能体通信与Plan模式卡死受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内产生500个Issue和500个PR",
+      "新P0内存泄漏Bug #91588成最大风险点",
+      "发布v2026.6.9-beta.1改进Telegram富文本投递",
+      "ClawSweeper自动化合并多项核心修复",
+      "社区贡献活跃，修复Markdown渲染与子Agent文档",
+      "Feishu飞书渠道与Windows路径处理PR进入审核"
+    ],
+    "ai-trending": [
+      "Headroom压缩工具单日获4000+ Stars登顶",
+      "Google Research开源时序基础模型TimesFM",
+      "MCP代码库智能服务Codebase Memory MCP获1058 Stars",
+      "GLM-5主打从Vibe Coding到Agent Engineering",
+      "Agent原生应用框架Agent Native获社区关注",
+      "Lightricks推出音频-视频生成模型LTX-2工具包"
+    ],
+    "ai-web": [
+      "Anthropic发布基于40万次Claude Code会话的经济研究报告",
+      "研究发现专业经验可显著放大AI编程助手的效率",
+      "调试时间占比在七个月内减少近一半",
+      "任务平均价值提升约25%转向更高端工作",
+      "研究验证Anthropic在代理式AI方向的技术投入",
+      "报告强调AI是赋能者而非替代者的企业信号"
+    ],
+    "ai-hn": [
+      "Anthropic暂停Token计费引发API定价讨论",
+      "诺奖得主John Jumper加入Anthropic引热议",
+      "Sam Altman传记电影被亚马逊取消受关注",
+      "MiniMax M3与GLM 5.2代码生成基准对比受关注",
+      "AI初创公司老板因诈骗被判刑引行业反思",
+      "Claude Artifacts功能旨在增强代码工作流"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma研究揭示连续空间推理透明性挑战",
+      "CWE-Trace框架诊断LLM漏洞检测的虚假理解",
+      "LedgerAgent用结构化账本确保工具调用合规",
+      "混合合规演示可能削弱LLM的安全防御",
+      "4-bit KV缓存压缩UltraQuant优化上下文Agent",
+      "神经符号方法DeepSWIP结合因果推理改进逻辑编程"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4 Pro以近5000点赞登顶本周焦点",
+      "Nvidia LocateAnything-3B精准定位基础模型获2195赞",
+      "Google DiffusionGemma探索多模态扩散语言模型",
+      "Qwen3.6系列量化模型下载量超370万",
+      "Yuxinlu1的Gemma-4代码微调版成热门编程模型",
+      "WeiboAI VibeThinker-3B专注数学推理的轻量模型"
+    ],
+    "ai-community": [
+      "Dev.to热议AI降低写代码门槛但未降低工程复杂性",
+      "MCP协议成本周最热技术基建话题",
+      "开发者分享AI代码副作用导致一周调试的血泪教训",
+      "LLM网关构建路由降级与语义缓存的深度好文",
+      "AI总结需附证据源的可追溯工程实践受关注",
+      "Agent计划缺少停止条件引发生成无限循环讨论"
+    ]
+  },
+  "en": {}
+}
