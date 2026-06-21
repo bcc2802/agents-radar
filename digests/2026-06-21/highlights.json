@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.185 发布，社区热议智能体失控问题",
+      "OpenAI Codex 遭遇 P0 级 Bug 爆发，团队紧急回滚",
+      "Gemini CLI 存在多个稳定性 Bug 影响核心体验",
+      "OpenCode 大规模测试重构，v1.17.9 发布",
+      "Pi 工具迭代密集，v0.79.9 发布聚焦多 Agent",
+      "Qwen Code 路径与安全 Bug 修复，v0.18.4 发布"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.9 发布，增强 Telegram 富文本",
+      "P0 级内存泄漏 Bug 已影响用户超两周未被修复",
+      "Codex 应用服务器回合停滞回归问题引发 16 条评论",
+      "多 Agent 协调与会话管理成为社区讨论焦点",
+      "Feishu 卡片页脚配置等新功能正在开发中",
+      "核心 Bug 修复 PR 积压，维护效率亟待提高"
+    ],
+    "ai-trending": [
+      "headroom 获 3795 Star，实现 60-95% Token 压缩",
+      "codebase-memory-mcp 获 1271 Star，毫秒级代码查询",
+      "withastro/flue 沙箱 Agent 框架发布，强调安全隔离",
+      "Kilo-Org/kilocode 获 513 Star，打造全栈编码 Agent",
+      "OpenMontage 获 677 Star，号称首款开源智能视频系统",
+      "Google timesfm 开源，时间序列预测基础模型发布"
+    ],
+    "ai-hn": [
+      "AI 渗透测试模型发布，红队工具引发安全热议",
+      "Claude Code 被曝扫描全盘文件，隐私争议升级",
+      "开源 vs 闭源模型前沿争议，GLM 获社区认可",
+      "SMPTE 开放标准获得 HN 社区普遍赞誉",
+      "Anthropic 相关政治与安全争议激烈讨论",
+      "AI 生成代码质量与成本问题引发开发者反思"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4987 点赞断层领跑本周热度榜",
+      "GLM-5.2 获 1705 点赞，MoE 架构吸引大量微调",
+      "Google diffusiongemma 下载量超 67 万，新范式",
+      "微软 FastContext-1.0 专注超长上下文处理",
+      "MiniMax-M3 多模态模型热度延续，获 1164 点赞",
+      "GGUF 量化社区异常活跃，新模型首周即获数千下载"
+    ],
+    "ai-community": [
+      "LLM 网关路由与语义缓存架构模式引发工程师关注",
+      "AI 记忆应为产品状态而非提示词技巧成架构洞见",
+      "MCP 服务器安全风险警示，开发者需警惕外部接入",
+      "Agent 评估层应内嵌于系统本身，非独立工具",
+      "Vector DB 数据可见性争议，私有 AI 遭犀利批判",
+      "AI 对初级开发者职业影响引发深度社区共鸣"
+    ]
+  },
+  "en": {}
+}
