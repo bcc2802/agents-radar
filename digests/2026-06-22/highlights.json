@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code遭遇配额异常消耗和平台兼容性问题",
+      "OpenAI Codex发布Alpha版本并架构重构",
+      "Gemini CLI面临Agent可靠性（挂起）问题",
+      "Qwen Code实现语音听写功能和死循环检测",
+      "OpenCode重点推进MCP集成和TUI Bug修复",
+      "DeepSeek TUI发布v0.8.63版本进行安全加固"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.10-beta.1版本",
+      "内存泄漏、消息丢失等P0/P1 Bug频发",
+      "社区用户因稳定性问题表达不满",
+      "Gateway OOM成为今日最热讨论议题",
+      "修复PR积压严重，待合并390条",
+      "子代理完成通知保留等修复上线"
+    ],
+    "ai-trending": [
+      "palmier-pro获1834星，AI视频编辑器爆火",
+      "OpenMontage获987星，AI视频制作系统受追捧",
+      "daily_stock_analysis获568星，LLM股票分析系统",
+      "deer-flow获442星，长周期SuperAgent受关注",
+      "vllm项目持续领跑LLM推理引擎榜单",
+      "browser-use浏览器自动化Agent社区活跃"
+    ],
+    "ai-web": [
+      "OpenAI发布三星电子ChatGPT Codex部署合作",
+      "Anthropic今日官网无任何新增内容",
+      "OpenAI瞄准世界500强企业私有化部署",
+      "Codex作为核心引擎服务三星编程自动化",
+      "ChatGPT作为前端交互界面深度集成",
+      "战略意义远超常规产品迭代"
+    ],
+    "ai-hn": [
+      "Anthropic身份验证事件引爆社区愤怒抵制",
+      "Recall开源工具为Claude Code提供本地记忆",
+      "中国Z.ai开源前沿编码模型引地缘讨论",
+      "Sakana Fugu新成果获52分社区关注",
+      "Qwen 3:0.6B微调分类教程获47分",
+      "挪威学校禁用AI引发教育伦理讨论"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以4999点赞断层式领先",
+      "Qwen3.6-35B-A3B下载量突破514万",
+      "GLM-5.2采用MoE-DSA架构开源",
+      "Gemma-4-12B-it支持Any-to-Any多模态",
+      "LocateAnything-3B获NVIDIA 2258点赞",
+      "社区对无审查微调版Qwen3.6需求旺盛"
+    ],
+    "ai-community": [
+      "讨论LLM不应决定Agent行为边界的安全原则",
+      "Vibe Coding被定义为新的协作维度",
+      "构建会遗忘的Agent比全记忆更具挑战",
+      "拒绝使用AI在2026年成为工程风险",
+      "8种方法降低LLM API成本，附真实数据",
+      "人类判断力在AI时代成为新生产力瓶颈"
+    ]
+  },
+  "en": {}
+}
