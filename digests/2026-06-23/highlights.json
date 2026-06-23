@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.186 修复资源泄漏",
+      "OpenAI Codex 出现计费飙升10-20倍的Bug",
+      "Gemini CLI 发布失败，Agent挂起问题严重",
+      "Copilot CLI 认证失败导致AI积分异常消耗",
+      "Kimi Code CLI 新增v1.48.0核心特性",
+      "DeepSeek TUI 重构架构分离提供商"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布v2026.6.10-beta.2，自动快速模式",
+      "修复Codex消息延迟，提升会话响应速度",
+      "优化CI，大幅加速smoke-ci测试流程",
+      "超高活跃度：24小时内259个Issues",
+      "待合并PR积压441条，高速迭代中",
+      "模型路由可靠性得到增强，Beta版本"
+    ],
+    "ai-trending": [
+      "AutoGPT 185k⭐，AI Agent鼻祖引领生态",
+      "Dify 146k⭐，Agentic Workflow开发平台",
+      "字节Deer-Flow日增738⭐，超长周期Agent",
+      "ollama 174k⭐，本地大模型运行神器",
+      "vllm 83k⭐，高性能推理引擎事实标准",
+      "airllm 4GB显存跑70B模型，突破性推理"
+    ],
+    "ai-web": [
+      "Anthropic量化40万次Claude Code会话经验",
+      "AI是'技能放大器'，专家优势更明显",
+      "Claude Code用户调试时间7个月减半",
+      "Anthropic与盖茨基金会2亿美元合作",
+      "OpenAI仅捕获安全相关元数据，内容缺失",
+      "编程范式从结对编程转向端到端代理"
+    ],
+    "ai-hn": [
+      "Codex日志Bug导致SSD写入TB级数据，472分",
+      "Claude '扩展思考'输出被指不真实且表演",
+      "GLM-5.2本地运行，社区技术讨论热烈",
+      "五眼联盟警告颠覆性AI数周内将至",
+      "社区对安全警告普遍持怀疑态度",
+      "本地优先AI记忆项目PMB获Show HN关注"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶，5015点赞",
+      "Gemma-4-12B-it 支持'any-to-any'多模态",
+      "NVIDIA LocateAnything-3B 通用定位新星",
+      "Microsoft FastContext-1.0-4B 长上下文",
+      "MiniMax-M3 第三代多模态模型",
+      "GLM-5.2 采用MoE架构位列第二"
+    ],
+    "ai-community": [
+      "'最小化AI原则'：优先考虑非AI方案",
+      "'AI不是软件升级，而是组织重构'",
+      "RAG应用幻觉修复技巧获6赞实战分享",
+      "Agentic RAG自我纠错检索循环设计",
+      "提示注入漏洞被发现，开发者详细拆解",
+      "AI代码安全审计与本地化部署深入实践"
+    ]
+  },
+  "en": {}
+}
