@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.191 发布但问题爆发",
+      "OpenAI Codex 架构级重构与生态扩展",
+      "Gemini CLI 功能完善与安全加固",
+      "OpenCode v1.17.10 深度集成 MCP",
+      "Qwen Code v0.19.2 快速迭代",
+      "DeepSeek TUI 进入重构与架构升级期"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.11-beta.1 强化频道控制",
+      "新增 Slack relay mode 与 Mattermost 命令",
+      "98% PR 待合并，Issue 解决率 13.7%",
+      "会话状态与消息丢失等 P1 Bug 持续",
+      "网关重启后自动恢复会话功能上线",
+      "文件编辑工具修复重写无关行漏洞"
+    ],
+    "ai-trending": [
+      "OpenMontage 开源首个智能体视频制作系统",
+      "NousResearch/hermes-agent 总星数突破 20 万",
+      "byte-dance/deer-flow 开源长周期超级 Agent 框架",
+      "CopilotKit 集成 Agent 到前端应用的利器",
+      "bytedance/deer-flow 支持研究/编码/创作任务",
+      "CherryHQ/cherry-studio 集成 300+ 助手"
+    ],
+    "ai-web": [
+      "Anthropic 发布与 NNSA 合作的核安全 AI 分类器",
+      "81,000 人调查揭示 AI 生产力悖论",
+      "OpenAI 联手 Broadcom 开发 Jalapeno 推理芯片",
+      "Anthropic 核安全分类器初步测试准确率 96%",
+      "AI 效率提升与失业焦虑并行存在",
+      "Anthropic 将核安全方法分享给行业联盟"
+    ],
+    "ai-hn": [
+      "Anthropic 指控阿里巴巴非法提取 Claude 能力",
+      "OpenAI Codex 被曝过度写入 SSD 致百万美元损失",
+      "LLM 存在专门识别代码漏洞的安全神经元层",
+      "Anthropic 指控将白宫和 NSA 卷入漩涡",
+      "AI 硬件格局因 OpenAI 自研芯片引发热议",
+      "Token 成本与代码风格工程实践受关注"
+    ],
+    "ai-arxiv": [
+      "模型取证框架区分有害行为是因不对齐还是困惑",
+      "多模态 LLM 对输入顺序极其敏感",
+      "自蒸馏技术会暗中牺牲模型输出多样性",
+      "多步工具 RL 训练崩溃问题被诊断",
+      "不可移除安全内核实现运行时强制对齐",
+      "多步工具 RL 训练需中间步监督信号"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 重夺 Hugging Face 周榜冠军",
+      "GLM-5.2 系列 MoE 架构下载量惊人",
+      "google/gemma-4-12B-it 支持 any-to-any 多模态",
+      "Kimi-K2.7-Code 下载量接近 50 万",
+      "Qwen 发布 Agent 专用 MoE 模型",
+      "nvidia/LocateAnything-3B 定位模型受关注"
+    ],
+    "ai-community": [
+      "开发者热议 Claude Tag 但信任层仍是短板",
+      "AI 编码工具补贴结束引发账单真相讨论",
+      "自动化红队测试将 Agent 9 次入侵降至 0",
+      "AI 编码代理需要项目记忆而非更大提示",
+      "GPT-4o 在与廉价模型比拼中落败",
+      "RAG 系统故障模式与本地推理方案受关注"
+    ]
+  },
+  "en": {}
+}
