@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code成本危机引爆社区讨论",
+      "Pi连接可靠性Issue获71条评论成焦点",
+      "OpenAI Codex配额暴涨获300+点赞",
+      "Kimi Code CLI被指MCP兼容性差",
+      "Qwen Code v0.19.2发布失败引热议",
+      "DeepSeek TUI正式更名CodeWhale引争议"
+    ],
+    "ai-agents": [
+      "OpenClaw同日处理500条Issue和500条PR",
+      "Autofix流水线+Windows守护进程被合并",
+      "Ollama工具调用参数序列化Bug修复",
+      "Secret解析导致网关噪音问题解决",
+      "项目聚焦会话管理、投递可靠性、安全性",
+      "411条待合并PR显示核心团队审查压力大"
+    ],
+    "ai-trending": [
+      "全球首个开源视频制作系统OpenMontage一日获3434星",
+      "Garry Tan发布个人Claude Code配置集含23工具",
+      "AWS官方推出Agent Toolkit打通云服务调用",
+      "bytedance开源deer-flow工作流框架",
+      "calesthio/OpenMontage拥有500+Agent技能",
+      "Rust生态LLM框架rig获7752星关注"
+    ],
+    "ai-web": [
+      "OpenAI发布《How Agents Are Transforming Work》",
+      "Anthropic官网无更新进入内容空窗期",
+      "OpenAI战略重心从模型能力转向Agent应用",
+      "Anthropic可能在准备Agent安全对比报告",
+      "OpenAI正定义AI从问答到数字员工的叙事",
+      "标题直指Agent应用形态与工作流集成"
+    ],
+    "ai-hn": [
+      "OpenKnowledge获219分取代Obsidian/Notion成焦点",
+      "美国政府要求OpenAI分阶段发布GPT-5.6引热议",
+      "DeepSeek Flash通过文本代理颠覆Agent经济",
+      "NYT报道中国AI模型已接近美国顶尖水平",
+      "OpenAI被曝将在付费计划中插入广告引争论",
+      "社区对AI巨头警惕转向期待开源方案"
+    ],
+    "ai-arxiv": [
+      "RiVER实现无真值答案的LLM强化学习训练",
+      "多模型系统存在共同失败上限Co-Failure Ceiling",
+      "BINEVAL将LLM评估分解为可解释二元问题",
+      "序列概率与答案正确性关系被系统探究",
+      "世界模型幻觉问题首次被量化预测",
+      "LLM作为任务特定知识库可解释性分析发布"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以5063周点赞断层领先",
+      "Qwen3.6无审查版下载量突破350万",
+      "NVIDIA基于Qwen3.6的FP4量化下载460万",
+      "GLM-5.2采用MoE-DSA架构中文体验出色",
+      "Google Gemma-4-12B原生支持any-to-any多模态",
+      "GGUF量化模型占比超40%显示低成本部署需求"
+    ],
+    "ai-community": [
+      "开发者提出用LLM提取特征但用传统分类器决策",
+      "AWS账单因AI配置错误14次访问花费31美元",
+      "作者对比证明GPT-4o不如廉价模型处理收件箱",
+      "2026年向量数据库横向对比指南发布",
+      "单体Agent与多Agent编排优劣实战探讨",
+      "OpenAI推荐API与实际被复制API不一致引关注"
+    ]
+  },
+  "en": {}
+}
