@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.195面临计费与稳定性危机",
+      "OpenAI Codex v0.143.0-alpha出现配额Bug",
+      "Gemini CLI重点改进Agent行为可控性",
+      "GitHub Copilot CLI v1.0.66修复上下文隔离",
+      "Pi工具TUI稳定性与扩展能力加固",
+      "Qwen Code v0.19.2-nightly强化安全与serve模式"
+    ],
+    "ai-agents": [
+      "OpenClaw社区24小时内产生500条Issue",
+      "子代理任务上下文丢失Bug修复PR待审核",
+      "强烈要求支持Linux/Windows原生应用",
+      "安全加固包括ClawHub技能commit SHA验证",
+      "Slack集成稳定性成为当前开发重点",
+      "Flutter桌面应用代码库可能正在开发中"
+    ],
+    "ai-trending": [
+      "OpenMontage开源Agent化视频制作系统今日获1754星",
+      "ai-berkshire基于Claude Code的价值投资研究框架",
+      "Agent-Reach让AI Agent零API费读取全网信息",
+      "aws官推Agent工具包提供MCP服务器和技能",
+      "gstack包含23个定制化工具扮演CEO等多角色",
+      "design.md今日获2407星成为最热AI基础工具"
+    ],
+    "ai-web": [
+      "Anthropic发布18篇新内容聚焦AI智能体能力验证",
+      "Claude在生物学、化学和网络安全领域能力跃升",
+      "确定性检索层将生物数据库检索精度提至近100%",
+      "Claude Opus 4.6成功编写CVE-2026-2796漏洞利用",
+      "Anthropic发布Claude Corps全国性AI人才项目",
+      "OpenAI仅发两篇标题暗示GPT-5.6 Sol重大发布"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol预览片878分引发政府监管风暴讨论",
+      "Anthropic Mythos模型获批准仅向可信美企开放",
+      "Smart model routing工具解决多模型管理痛点",
+      "OpenAI Codex被曝大量写操作致SSD损毁耗资百万",
+      "美国政府决定谁能用AI模型引社区激烈辩论",
+      "社区热议AI模型真实企业投入与硬件损耗成本"
+    ],
+    "ai-arxiv": [
+      "RiVER框架实现无真值答案的强化学习对齐",
+      "研究揭示LLM高序列概率并不等于正确答案",
+      "多模型组合策略存在\"共失效天花板\"理论上限",
+      "提示注入攻击可严重威胁AI简历筛选系统",
+      "GEQ框架探索排序式对齐突破传统RLHF局限",
+      "物理信息基础模型提升物理现象预测鲁棒性"
+    ],
+    "ai-hf": [
+      "GLM-5.2凭借MoE架构获2608赞成现象级模型",
+      "Qwythos-9B下载量近50万成社区优化标杆",
+      "Gemma-4-12B代码优化版下载量超51万",
+      "HauhauCS去审查版Qwen3.6下载量达345万",
+      "NVIDIA推出0.6B流式语音识别模型Nemotron",
+      "微软发布FastContext-1.0-4B长上下文技术"
+    ],
+    "ai-community": [
+      "AI生成代码功能正确不等于逻辑正确引反思",
+      "AI审核评分23/25却完全错失内容本质要点",
+      "Claude Code计费模式隐性成本深度揭秘",
+      "MCP作为上下文分发比远程调用更有价值",
+      "LiteLLM与OpenRouter实战对比各曝生产瓶颈",
+      "\"不要用模型当记忆\"观点获社区广泛认同"
+    ]
+  },
+  "en": {}
+}
