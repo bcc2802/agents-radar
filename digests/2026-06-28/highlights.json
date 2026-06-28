@@ -1,0 +1,53 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Opus 4.7 渲染失败引发社区争议",
+      "OpenAI Codex CLI 曝 GPT-5.5 配额异常消耗",
+      "GitHub Copilot CLI Windows 兼容性崩塌",
+      "Pi 社区活跃修复恶意包与 TUI 渲染",
+      "Qwen Code 转向成本优化与状态持久化",
+      "DeepSeek TUI 缓存命中率与 Token 消耗成痛点"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区日增 500 条 Issue 和 PR",
+      "P0/P1 级内存泄漏和会话损坏 Bug 待修复",
+      "会话存储从 JSON 迁移到 SQLite 重构推进",
+      "ACP 任务取消修复提升系统健壮性",
+      "WhatsApp 频道新增群组管理员权限控制",
+      "Ollama 模型兼容性修复确保工具调用稳定"
+    ],
+    "ai-trending": [
+      "Ollama 以 175k Star 稳居本地模型首选工具",
+      "Google Labs 提出 DESIGN.md 解决 UI 风格一致性",
+      "Claude Mem 为编码代理提供跨会话长期记忆",
+      "VibeThinker-3B 专注推理适合资源受限部署",
+      "微软 FastContext-4B 集成 Explorer SubAgent",
+      "HauhauCS Uncensored 模型下载量超 300 万"
+    ],
+    "ai-hn": [
+      "亚洲初创推 Mythos 对标模型引地缘辩论",
+      "Anthropic 指控阿里用 2.5 万账号窃取技术",
+      "AMD Strix Halo 集群搭建指南获技术热议",
+      "Adrafinil 工具解决 AI 代理运行屏幕关闭问题",
+      "社区讨论本地 LLM 运行的模型和硬件配置",
+      "AI 造成大规模失业焦虑因福特回撤加剧"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 架构强势回归多版本上榜",
+      "DeepSeek-V4-Pro-DSpark 提供 FP4 极限量化",
+      "Uncensored 模型下载量登顶反映刚性需求",
+      "百度 Unlimited-OCR 模型下载量超 21 万",
+      "LiquidAI 230M 小模型证明边缘部署可能",
+      "NVIDIA 推出 Qwen3.6 优化的 NVFP4 模型"
+    ],
+    "ai-community": [
+      "Dev.to 聚焦 AI Agent 架构实操文章",
+      "Lobste.rs 探讨 AI 对数学和劳动领域冲击",
+      "极小程序挑战越大越好范式获关注",
+      "统一管理多供应商 API 的网关方案走红",
+      "MemStrata 称动态代码记忆全面超越 RAG",
+      "老显卡 GTX 770 运行现代 LLM 引技术讨论"
+    ]
+  },
+  "en": {}
+}
