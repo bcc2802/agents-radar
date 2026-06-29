@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code子代理递归致Token消耗黑洞",
+      "OpenAI Codex用户怒斥敏感文件排除功能缺失",
+      "Gemini CLI修复Agent自动挂起与误报问题",
+      "GitHub Copilot CLI将增强会话管理体验",
+      "Kimi Code陷无限读取循环，DeepSeek支持呼声高",
+      "OpenCode陷Gemma-4兼容性危机与Agent模式逃逸"
+    ],
+    "ai-agents": [
+      "OpenClaw单日Issue与PR更新总量破千",
+      "SQLite会话存储架构级重构由PR #96625主导",
+      "v2026.6.11-beta.2发布，支持Slack中继模式",
+      "microsoft/FastContext-1.0-4B-SFT聚焦长上下文处理",
+      "WeiboAI/VibeThinker-3B仅3B参数但数学表现突出",
+      "HauhauCS/Qwen3.6-35B-A3B无审查版下载量超324万"
+    ],
+    "ai-trending": [
+      "Hermes-Agent以20.5万星成为成长最快Agent框架",
+      "AutoGPT以18.5万星持续领跑通用Agent赛道",
+      "Dify以14.7万星成生产级Agent工作流首选平台",
+      "vllm以8.4万星稳居大模型推理引擎榜首",
+      "OpenHands以7.8万星代表AI编码核心力量",
+      "Google Workspace CLI内置Agent技能引关注"
+    ],
+    "ai-web": [
+      "OpenAI发布指向HP Frontier Partnership的硬件合作信号",
+      "Anthropic全天零内容更新，或处重大版本迭代静默期",
+      "OpenAI正积极寻求与大型IT基础设施商建立深度合作",
+      "Anthropic可能进入安全审查期，即将发布重磅成果",
+      "Hp Frontier Partnership暗示OpenAI算力基础设施扩张",
+      "两家官网更新呈Anthropic关机、OpenAI开机极端分化"
+    ],
+    "ai-hn": [
+      "GLM 5.2在网络安全基准测试中击败Claude引热议",
+      "用户用Claude Code分析MRI影像成今日顶流帖",
+      "OpenAI Codex敏感文件排除Issue长期未解决引众怒",
+      "AI泡沫风险与企业放弃AI回归人力讨论升温",
+      "NanoEuler纯C/CUDA实现GPT-2模型获社区点赞",
+      "LLM镜像测试文章引发AI是否有自我认知争论"
+    ],
+    "ai-hf": [
+      "GLM-5.2以2835点赞和11.8万下载登顶本周最热模型",
+      "Qwen3.6无审查激进版下载量突破324万",
+      "Qwen-AgentWorld-35B-A3B阿里推Agent专用世界模型",
+      "百度的Unlimited-OCR和nvidia的ASR模型颇受关注",
+      "empero-ai的Qwythos-9B量化版下载超83万",
+      "微软FastContext-1.0-4B-SFT专注长上下文处理"
+    ],
+    "ai-community": [
+      "关系户搞垮AI平台的真实吐槽引发33条评论",
+      "2029年地缘政治与AI硬件思辨小说极具预言性",
+      "开发者公开AI学习导致的职业倦怠引发共鸣",
+      "MCP服务器令牌浪费问题被揭露：启动即烧5万",
+      "级联模型降低代码审查成本策略获追捧",
+      "上下文过时问题：AI不知道现在几点钟被关注"
+    ]
+  },
+  "en": {}
+}
