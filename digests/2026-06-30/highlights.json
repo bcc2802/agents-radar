@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.196，社区热度极高",
+      "OpenAI Codex 发布 rust-v0.142.4 与 v0.143.0-alpha.31",
+      "OpenCode 贡献大量主力 PR，聚焦安全加固",
+      "GitHub Copilot CLI 发布 v1.0.66-2，迭代频繁",
+      "Gemini CLI 发布 v0.51.0 夜间版，社区活跃",
+      "Kimi Code CLI 社区活跃度最低，仅 1 个 Issue"
+    ],
+    "ai-agents": [
+      "OpenClaw 日增 390 Issue 与 500 PR，贡献量峰值",
+      "核心稳定性加固：防御工具描述符读取失败",
+      "WriteTextAtomic 权限收紧至 0700，提升安全性",
+      "低内存保护机制：内存不足时提前中止工具调用",
+      "修复 macOS 无限重配对循环 bug",
+      "修复飞书渠道工具调用错误问题"
+    ],
+    "ai-trending": [
+      "Agency-Agents 今日新星，构建完整 AI 代理机构",
+      "AI-Berkshire 用多 Agent 模拟巴菲特等投资大师",
+      "Vibe-Trading 个人交易 Agent 进入金融辅助领域",
+      "Council-of-High-Intelligence 模拟18位大师思辨",
+      "Video-Use 扩展浏览器操作，今日获 967 star",
+      "Ollama 以 175k star 稳居本地模型运行首选"
+    ],
+    "ai-hn": [
+      "Micro-Agent 通过 API 内部协作挑战大模型叙事",
+      "Open Memory Protocol 统一 Claude 与 ChatGPT 记忆",
+      "讨论：如何高效传递错误给 Claude Code 编码助手",
+      "WSJ 称中国AI赶上Anthropic遭社区强烈反驳",
+      "ScreenMind 在设备端运行视觉模型处理每张截图",
+      "AI 投资超级泡沫论引发社区热议与反思"
+    ],
+    "ai-arxiv": [
+      "投机解码接受理论：为推理加速提供新理论基础",
+      "冗长思维链真的有用？内容而非长度是关键",
+      "多智能体系统利用开源 LLM 缓解虚假信息威胁",
+      "EvalSafetyGap 揭示 LLM 评估与安全度量差距",
+      "主动路由：为多模态模型动态选择推理路径",
+      "DAIN 动态智能体交互网络实现高效协作"
+    ],
+    "ai-hf": [
+      "GLM-5.2 获 2950 赞，智谱AI 密集计算 MoE 模型",
+      "DeepSeek-V4-Pro-DSpark 代表推理性能新标杆",
+      "Qwen3.6 去审查版下载量超 300 万，社区现象级",
+      "百度 Unlimited-OCR 下载量超 36 万，全能识别",
+      "WeiboAI VibeThinker-3B 小模型专注数学推理",
+      "Hugging Face 榜单 NVIDIA 多款模型高调领跑"
+    ],
+    "ai-community": [
+      "LLM 应用记忆与情境关系引发深度讨论",
+      "从底层拆解 LLM API 调用过程，优质科普",
+      "MCP 服务器搭建实战教程紧跟协议热点",
+      "本地部署 Ollama 用 LLM 生成 Git 提交信息",
+      "AI 商品化了信心，而非软件——发人深省观点",
+      "AI Agent 治理成社区新兴焦点话题"
+    ]
+  },
+  "en": {}
+}
