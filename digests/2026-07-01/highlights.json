@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.197默认Sonnet 5，但信任危机爆发。",
+      "OpenCode v1.17.12发补丁，Copilot集成故障引热议。",
+      "Pi v0.80.3支持Sonnet 5，Agent空转问题待修复。",
+      "Kimi Code CLI仅1个新Issue，社区体量较小。",
+      "OpenAI Codex rust-v0.142.5补丁修复日志写入风暴。",
+      "Gemini CLI v0.51.0修复Agent虚假成功Bug。"
+    ],
+    "ai-agents": [
+      "OpenClaw发v2026.6.11修复回复错位与断线重连。",
+      "OpenClaw合并PR杀Extension子进程，提升隔离性。",
+      "NVIDIA LocateAnything-3B下载量达80万，Agent视觉新热点。",
+      "Google agents-cli新星515星，Agent开发标准化。",
+      "ZeroClaw等13个项目更新，生态活跃度高。",
+      "会话状态丢失成OpenClaw核心难题，修复进度待加速。"
+    ],
+    "ai-trending": [
+      "ollama/ollama 175k星，持续支持Kimi-K2.6等新模型。",
+      "usestrix/strix成今日新星，AI渗透测试工具。",
+      "google/agents-cli获445星，Agent CLI标准化。",
+      "firecrawl/firecrawl 142k星，Agent网页数据抓取必备。",
+      "vllm/vllm 84k星，生产级LLM推理引擎稳固。",
+      "FluidVoice突破端侧AI，语音交互新进展。"
+    ],
+    "ai-web": [
+      "Anthropic解禁Fable 5，7月起全球恢复访问。",
+      "Claude Sonnet 5发布，号称最强Agent模型。",
+      "Anthropic推Claude Science，专为科学家打造。",
+      "Anthropic三箭齐发：解禁、新模型、垂直工作台。",
+      "OpenAI更新涉及Genebench生物信息学领域。",
+      "Anthropic补贴Fable 5用户，最高50%免费额度。"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5获938分，社区高度关注。",
+      "Claude Code被曝价格涨5倍，用户不满。",
+      "Cursor iOS版永久修改隐私设置引担忧。",
+      "Claude Code默认删除30天历史，社区冲击。",
+      "Sonnet 5基准测试独立机构跟进，讨论热烈。",
+      "Fable 5解禁引发地缘政治与AI扩散讨论。"
+    ],
+    "ai-arxiv": [
+      "元认知RL训练让LLM更诚实表达不确定性。",
+      "Looped Transformer实现隐式推理新突破。",
+      "多模态智能体协作基准发布，推动具身AI。",
+      "单细胞RNA-seq基础模型CellFM开源发布。",
+      "竞争奖励机制解决LLM过度拒绝问题。",
+      "低维拓扑学分析神经网提供新理解框架。"
+    ],
+    "ai-hf": [
+      "百度Unlimited-OCR登顶，多模态需求爆发。",
+      "GLM-5.2系列成最热语言模型家族。",
+      "Qwen 3.6无审查版周下载破300万。",
+      "nvidia LocateAnything-3B下载量80万。",
+      "DeepSeek-V4-Pro-DSpark开源权重受关注。",
+      "LiquidAI LFM2.5-230M小模型效能突出。"
+    ],
+    "ai-community": [
+      "日志驱动Agent设计颠覆智能体认知。",
+      "AI API服务背后经济学代价引热议。",
+      "本地和开源AI被指打破巨头垄断。",
+      "开发者倡转向小型专用稳定应用。",
+      "AI链式思维劫持威胁安全边界。",
+      "Anthropic论文重塑软件工程价值认知。"
+    ]
+  },
+  "en": {}
+}
