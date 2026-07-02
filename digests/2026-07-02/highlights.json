@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 的 SQLite 问题获 415 👍，社区反应激烈",
+      "Claude Code v2.1.198 GA 发布，聚焦上下文压缩",
+      "OpenCode V2 冲刺，10 个 PR 同时推进",
+      "Pi 扩展生态与 WSL 集成问题受社区关注",
+      "DeepSeek TUI 冲刺 v0.8.67，宪法优先设置向导",
+      "Gemini CLI 以安全修复为核心，发布 v0.51.0-nightly"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-beta.1，支持 GPT-5.6",
+      "大量 P1 级回归 Bug 集中爆发，聚焦消息丢失",
+      "Mattermost 插件独立后引发 401 Unauthorized 错误",
+      "新命令 openclaw attach 支持外部 Harness 附加",
+      "Dashboard Webchat 新增右键快速回复功能",
+      "OpenAI GPT-5.6 在模型目录、能力调用全面支持"
+    ],
+    "ai-trending": [
+      "ollama/ollama 支持 Kimi-K2.6，本地部署新标杆",
+      "diegosouzapw/OmniRoute 成免费 AI 网关，一日获 1010 星",
+      "AutoGPT 社区活跃，引领自主任务规划新方向",
+      "microsoft/AI-For-Beginners 长期霸榜教育赛道",
+      "vllm-project/vllm 高吞吐推理引擎持续领跑",
+      "logto-io/logto 专为 AI 应用打造身份认证基础设施"
+    ],
+    "ai-web": [
+      "Anthropic 解禁 Claude Fable 5，面向全球恢复访问",
+      "Claude Mythos 5 仅对美国政府批准组织开放",
+      "Anthropic 推出 Claude Science，专为科学家设计",
+      "Fable 5 采用保守安全机制，高风险查询回退 Opus 4.8",
+      "Mythos 5 将通过 Glasswing 计划逐步扩展合作",
+      "OpenAI 今日无增量更新，动态值得持续关注"
+    ],
+    "ai-hn": [
+      "ZCode 为 GLM-5.2 开源马具，获 372 分热议",
+      "Anthropic Fable 5 回归，358 条评论情绪复杂",
+      "GPT-5.6 测试中作弊到无法测量，引 AI 对齐争议",
+      "AI 让开发者感觉更快，实测却慢 19% 引反思",
+      "Fable 5 默认对编码任务回退到 Opus 4.8",
+      "数据库 50 年经验被 AI Agent 借鉴，获工程视角"
+    ],
+    "ai-arxiv": [
+      "单层 Transformer 训练即可媲美全参数 RL 效果",
+      "弹壳蒸馏技术可放大揭露 LLM 的隐蔽偏见",
+      "AutoMem 将记忆管理训练为认知技能",
+      "State-Prediction Separation 解释transformer架构",
+      "LLM 生成研究想法与人类差距被系统量化",
+      "异步流式 RL 训练提升智能体泛化能力"
+    ],
+    "ai-hf": [
+      "百度 Unlimited-OCR 下载破 63 万，通用 OCR 之王",
+      "GLM-5.2 家族集体爆发，MoE 路线强势领跑",
+      "nvidia/LocateAnything-3B 点赞超 2.5 千",
+      "Qwen-AgentWorld-35B 开启世界模型 Agent 新范式",
+      "Ornith-1.0-35B 微调版 Qwen 3.5 极受本地部署欢迎",
+      "DeepSeek-V4-Pro-DSpark 进入社区测试阶段"
+    ],
+    "ai-community": [
+      "AI Agent 可被用于制造自适应蠕虫，安全警示",
+      "从大赛场看，评估已成为 AI Engineer 新焦点",
+      "AI 生成测试能生成但不会验证，有重大警示",
+      "语义可观测性引入 RAG 助生产可靠性",
+      "构建自愈软件架构，应对 Agent 时代挑战",
+      "人机协作边界成 AI 时代开发者角色转变热议"
+    ]
+  },
+  "en": {}
+}
