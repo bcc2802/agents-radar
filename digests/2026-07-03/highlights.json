@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.199 发布，修复 Clipboard 损坏等系统级 Bug",
+      "OpenAI Codex 发布 2 个 Beta 版，聚焦 Rust 重写和凭据路由",
+      "Gemini CLI v0.51.0-nightly 改善 Agent 可靠性与 Auto Memory",
+      "GitHub Copilot CLI 遇 MCP 认证与 BYOK 模式需求",
+      "Qwen Code v0.19.5 发布，增强跨平台兼容与移动端交互",
+      "DeepSeek TUI 社区热议 Onboarding UX 与宪法系统透明度"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区极度活跃，24 小时 Issue 与 PR 近 700 条",
+      "v2026.6.11 版本后大量 P1 级 Bug 爆发，质量回滚成焦点",
+      "修复工具输出污染问题，解决显示“(no output)”的严重缺陷",
+      "修复 iOS 18+ 照片“Limited Access”权限不被识别的 Bug",
+      "修复会话持续中断回归问题，用户升级后体验改善",
+      "Git 克隆到远端分支失败的回滚问题已修复"
+    ],
+    "ai-trending": [
+      "caveman 爆红，用原始人话术削减 65% Token 成本",
+      "strix 获 2137 星，首个登上 Trending 的 AI 安全测试工具",
+      "Chrome DevTools MCP 开源，谷歌官方编程代理接口",
+      "Ollama 175,347 星，本地运行 LLM 的首选引擎",
+      "AutoGPT 185,299 星，自主智能体概念鼻祖",
+      "OpenHands 成为最热门 AI 编码助手之一"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 发布，代理能力逼近旗舰 Opus 4.8",
+      "Fable 5 网络安全分级与越狱评估框架首次公开",
+      "Sonnet 5 有害行为发生率低于前代",
+      "Anthropic 主动塑造 AI 安全治理规则与话语权",
+      "OpenAI 今日无公开动态更新",
+      "Sonnet 5 将高阶代理能力下放到更经济层级"
+    ],
+    "ai-hn": [
+      "OpenAI 拟向美国政府出售 5% 股份引爆社区",
+      "社区质疑 Sam Altman 政治投机与公司治理扭曲",
+      "CNBC 解读 OpenAI 此举为化解华盛顿政治压力",
+      "亚马逊成立 10 亿美元 FDE 组织追随 OpenAI",
+      "Claude 被指控存在‘间谍软件’行为",
+      "社区对大型 AI 公司不信任感加剧"
+    ],
+    "ai-arxiv": [
+      "分布式攻击威胁 AI 编码智能体，跨 PR 注入恶意代码",
+      "LACUNA 测试平台评估 LLM 遗忘算法的精度",
+      "在线安全监控方法为 LLM 部署提供实时保护",
+      "多智能体辩论中社会结构影响潜目标涌现",
+      "推理努力比工具更能提升代码生成首次可靠性",
+      "G-RRM 结合循环推理模型引导符号求解器"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 模型登顶周榜，获 3284 点赞",
+      "NVIDIA LocateAnything-3B 下载量破百万",
+      "Ornith-1.0-35B-GGUF 量化版下载量达 284k",
+      "DeepSeek-V4-Pro-DSpark 权重正式发布",
+      "BugTraceAI-CORE-Ultra-27B 专为网络安全优化",
+      "Qwen3.5 和 Gemma-4 量化模型占据榜单半壁江山"
+    ],
+    "ai-community": [
+      "社区讨论 AI Agent 工程化现实与成本效益之争",
+      "Ben Halpern 现场征集对 AI 议题的社区意见",
+      "18 条热辣预测展望 AI 未来发展方向",
+      "指南：防止 LLM 被提示注入攻击",
+      "欧盟托管推理服务商 2026 年对比指南出炉",
+      "驳斥‘即兴编码’搞定基础设施的观点"
+    ]
+  },
+  "en": {}
+}
