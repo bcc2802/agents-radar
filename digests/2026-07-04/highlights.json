@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 安全策略过激导致模型降级",
+      "OpenAI Codex 被曝 GPT-5.5 引发 Windows 蓝屏 Bug",
+      "Gemini CLI Agent 挂起与 Shell 命令卡死频发",
+      "GitHub Copilot CLI 模型不可用、持续崩溃",
+      "Pi (pi-mono) 新模型编辑工具兼容性出问题",
+      "DeepSeek TUI 冲刺 RC 版，MCP 动态加载成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 会话丢失与状态损坏成核心痛点",
+      "修复重复重启恢复，解决网关‘死亡循环’问题",
+      "LINE 频道静默丢消息，迎来综合性修复方案",
+      "压缩估算溢出致长会话过度压缩，PR 在推进",
+      "要求审批关键生命周期命令，安全防线升级",
+      "社区贡献大量单元测试，提升底层代码可靠性"
+    ],
+    "ai-trending": [
+      "Strix 开源 AI 渗透测试工具，日增 Star 超 2800",
+      "Token 压缩项目 JuliusBrussee/caveman 引社区热捧",
+      "OpenAI 官方插件让 Claude Code 调用 Codex 审核",
+      "腾讯云开源 CubeSandbox，提供 Agent 安全沙箱",
+      "谷歌发布 Chrome DevTools MCP，智能体可操控浏览器",
+      "Herdr：终端中的‘Agent 多路复用器’，日增 478 Star"
+    ],
+    "ai-web": [
+      "Anthropic 重发‘Claude 扩展思考’，强调透明度价值",
+      "回溯负责任扩展政策，暗示 Fable 5 安全升级",
+      "独家披露 Fable 5 网络安全分类器细节与界限",
+      "发布‘越狱严重性框架’草案，定义攻击层级",
+      "Anthropic 再提‘宪法 AI’与‘可信赖’核心理念",
+      "今日仅 Anthropic 更新，OpenAI 零新增内容"
+    ],
+    "ai-hn": [
+      "GLM-52 在 AMD 上性能/美元比获社区盛赞",
+      "Dan Luu 长文深入探讨‘智能体编码’工程实践",
+      "本地隐私版‘微软 Recall’替代品获 Show HN 热议",
+      "研究称 AI 仅节省 3% 工时且不赚钱引激烈争论",
+      "Anthropic Mac 应用体验糟糕且被阿里禁止使用",
+      "GPT-5.5 编码性能与 Claude Fable 持平但成本更低"
+    ],
+    "ai-arxiv": [
+      "新研究揭示 AI 编码代理面临分布式投毒风险",
+      "LACUNA 发布 LLM 遗忘技术所需定位精度测试",
+      "DRIFTLENS 量化用户记忆对 LLM 推理的漂移影响",
+      "研究反直觉：推理努力比工具访问更关键",
+      "多智能体系统无需显式协议即可涌现社会结构",
+      "新型图像分词器使 CLIP 几乎冻结也能高效扩展"
+    ],
+    "ai-hf": [
+      "智谱 GLM-5.2 登顶 Hugging Face 文本生成热度榜",
+      "英伟达 LocateAnything-3B 视觉定位模型爆火",
+      "Ornith-1.0-35B 量化版周下载量突破 32 万",
+      "Qwen3.6 无审查版模型周下载量超 300 万",
+      "百度 Unlimited-OCR 模型社区热度急剧攀升",
+      "DeepSeek-V4-Pro 配合 DSpark 框架专注复杂推理"
+    ],
+    "ai-community": [
+      "运行不可信 AI 代码，Firecracker 沙箱成首选方案",
+      "AI Agent 工具调用存隐蔽数据泄露风险引关注",
+      "新思路：通过‘写链’追踪 AI 是否伪造授权信号",
+      "AI Agent 需要 50ms SLA 检查点引擎保障可靠性",
+      "MCP 服务搭建指南爆火，Python 开发者争相学习",
+      "代码库如何适配上下文窗口？实用测量工具来了"
+    ]
+  },
+  "en": {}
+}
