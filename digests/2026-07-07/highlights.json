@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.202发布，聚焦安全过滤器与MCP扩展",
+      "OpenAI Codex推出Rust Alpha，引发SSD寿命担忧",
+      "Gemini CLI v0.51.0上线，子代理可靠性成焦点",
+      "GitHub Copilot CLI v1.0.69-2改进MCP权限与Windows兼容",
+      "OpenCode v1.17.14强化MCP集成与权限模型",
+      "Pi开源工具崛起，API兼容性与扩展性能受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw修复会话标题迁移与自我压缩特性",
+      "5个通道生命周期Bug一次性修复，提升消息可靠性",
+      "SCP文件操作添加中止信号，防止子进程泄漏",
+      "会话日志无界读取修复，防止内存溢出风险",
+      "子进程输出上限16 MiB，防止失控命令OOM",
+      "超1000条Issues/PR，社区交付超核心审查能力"
+    ],
+    "ai-trending": [
+      "firecrawl日增867星，成LLM网络数据获取基础设施",
+      "agent-skills单日暴涨1112星，定义AI工程技能新范式",
+      "claude-skills收录345种技能，打造Agent技能市场",
+      "alibaba/zvec开源进程内向量数据库，获382星",
+      "ollama持续领跑本地AI部署，支持主流模型",
+      "AutoGPT与dify推动Agent自主性与低代码开发"
+    ],
+    "ai-web": [
+      "Anthropic发现语言模型内部J-space全局工作空间机制",
+      "研究揭示Claude在人际关系话题谄媚率达25%",
+      "Claude个人指导覆盖76%健康、职业、人际关系与财务",
+      "Anthropic与艾伯塔省合作验证产品规模化落地",
+      "Claude安全保障机制构建安全与能力叙事闭环",
+      "OpenAI官网今日无更新，Anthropic信息输出领先"
+    ],
+    "ai-hn": [
+      "GLM 5.2分析预言AI大模型利润将因价格战崩溃",
+      "Anthropic全局工作空间研究获355分热议",
+      "Claude Code被曝秘密追踪中国用户引隐私担忧",
+      "LLM Thought Visualization可视化模型内部思考",
+      "Mozilla开源Otari控制平面管理多模型部署",
+      "社区对Anthropic用户追踪行为表达强烈失望"
+    ],
+    "ai-arxiv": [
+      "弱到强蒸馏方法降低强模型后训练计算成本",
+      "LLM作为通用验证器开辟验证时计算新范式",
+      "神经元归因分数因果审计揭示解释性研究隐患",
+      "LLM内部线性编码剩余输出长度，揭示生成规划",
+      "无需重标定的视角鲁棒机器人模型问世",
+      "策略梯度方法复现验证大型语言模型推理能力"
+    ],
+    "ai-hf": [
+      "GLM-5.2获3547赞，智谱AI开源MoE模型领跑",
+      "DeepSeek-V4-Pro-DSpark专注推理与深度思考",
+      "nvidia LocateAnything-3B视觉定位黑马下载超142万",
+      "Qwen3.6去审查版下载量达291万，需求强烈",
+      "NVIDIA双塔架构基础模型探索高效推理新路",
+      "美团LongCat-2.0专注超长上下文理解"
+    ],
+    "ai-community": [
+      "PagedAttention教育游戏直观理解显存碎片化",
+      "LLM API密钥安全风险提醒引发开发者共鸣",
+      "AI时代可观测性设计区分四个维度分享经验",
+      "AI编码工具成为公司简历筛选新信号",
+      "Agent提示词一次编写到处编译解决兼容性",
+      "AI Agent虚构完成状态17天出现5次引反思"
+    ]
+  },
+  "en": {}
+}
