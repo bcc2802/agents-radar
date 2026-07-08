@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex成本暴涨，用一次比吃顿大餐还贵",
+      "Claude Code回归Bug频发，社区用户集体崩溃",
+      "Gemini CLI安全加固，Agent不听话问题突出",
+      "Copilot CLI MCP生命周期成最大痛点",
+      "OpenCode Windows崩溃，内存泄漏严重",
+      "DeepSeek TUI多Agent协作，自主性引热议"
+    ],
+    "ai-agents": [
+      "OpenClaw提示词泄露，Agent行为不当遭吐槽",
+      "多Agent编排不稳定，社区反馈消化遇瓶颈",
+      "OpenClaw修复网关消息可信度和定时器残留",
+      "已合并136个PR，安全测试稳步推进",
+      "无新版本发布，项目进入静默期",
+      "子Agent数据丢失问题得到修复"
+    ],
+    "ai-trending": [
+      "RuView零摄像头Wi-Fi感知，登顶热榜引轰动",
+      "agent-skills编码Agent技能库，日获1317星",
+      "AutoGPT持续迭代，185k星稳坐Agent框架头牌",
+      "Cherry Studio集成300+助手，AI工作站新标杆",
+      "腾讯云CubeSandbox沙箱，为Agent安全护航",
+      "Agent-Reach全平台搜索，零API费扩展信息边界"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5发布，Agent能力接近Opus级",
+      "Sonnet 5成本更低，性能飞跃引爆开发者生态",
+      "Anthropic暗示对模型内部认知架构深入理解",
+      "OpenAI今日零更新，相对沉寂",
+      "Sonnet 5网络安全任务能力远低于Opus",
+      "全局工作空间研究为理解AI思想提供新钥匙"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol、Terra、Luna本周四公开发布",
+      "Rowboat开源本地优先，Claude Desktop完美替代",
+      "GitLost攻击GitHub AI Agent，泄露私有仓库",
+      "J-Space研揭秘Claude内部推理步骤",
+      "Claude产品线密集更新，Fable 5权限延长",
+      "社区对AI漏洞和成本问题深感担忧"
+    ],
+    "ai-arxiv": [
+      "DepthWeave-KV突破长上下文KV缓存内存瓶颈",
+      "FreqDepthKV频率指导压缩，极低预算保留证据",
+      "Doomed from Start：Agent失败前提前终止省计算",
+      "Data Analysis in Wild：新基准涵盖真实数据复杂性",
+      "Danus用事实图记忆编排数学推理Agent",
+      "不确定性评估跨22种语言，揭示性能差异"
+    ],
+    "ai-hf": [
+      "NVIDIA LocateAnything定位模型，142万下载量",
+      "百度Unlimited-OCR无限制识别，成工业级标准",
+      "Qwen 3.6去审查版282万下载，社区需求巨大",
+      "DeepSeek-V4-Pro配合天工加速器，性能突破",
+      "Gemma 4微调版搞定编程与Agent，本地部署首选",
+      "谷歌TabFM表格基础模型，开辟结构化数据战场"
+    ],
+    "ai-community": [
+      "AI写线程安全计数器，被CPU拖慢5倍",
+      "泄露的嵌入即泄露文本，RAG新安全盲点",
+      "AI账单在Agent循环中暴增，优化可省96%成本",
+      "停止读文档，工程师系统理解能力退化",
+      "自我指涉AI系统与Claude内部架构惊人一致",
+      "Stratagems寓言警示：莫让AI仪表盘夺走控制权"
+    ]
+  },
+  "en": {}
+}
