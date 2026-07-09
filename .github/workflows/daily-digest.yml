@@ -1,9 +1,7 @@
 name: Daily Agents Radar
 
 on:
-  schedule:
-    # 13:00 Beijing time (UTC+8) = 05:00 UTC.
-    - cron: "0 5 * * *"
+  # Daily automatic collection is paused. Run manually from GitHub Actions when needed.
   workflow_dispatch:
 
 permissions:
